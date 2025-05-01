@@ -1,0 +1,51 @@
+.body {
+    background: linear-gradient(141deg, rgba(63, 94, 251, 1) 0%, rgba(44, 41, 103, 1) 63%, rgba(43, 39, 96, 1) 66%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+    padding: 20px;
+    display: flex;
+}
+
+.App {
+    background: linear-gradient(141deg, rgb(20, 26, 54) 0%, rgb(4, 1, 58) 63%, rgb(18, 16, 49) 66%);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+    border: 5px solid #000000;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 10px 0;
+    color: #000000;
+}
